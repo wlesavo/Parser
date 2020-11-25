@@ -3,6 +3,18 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Specifics
+
+*.config
+*.csproj
+*.sln
+
+Connected\ Services/
+obj/
+JSONlib/
+[Pp]ackages/
+[Pp]roperties/
+
 # User-specific files
 *.rsuser
 *.suo
@@ -14,6 +26,7 @@
 *.userprefs
 
 # Build results
+
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
